@@ -1,0 +1,274 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*Background*/
+body{
+    background-image: url(whitewall1.jpg);
+     width: 100%;
+    height:100px;
+    background-size:100%;
+    background-position: center;
+    background-attachment: fixed;
+     background-repeat: no-repeat;
+}
+
+#imagedoctors a{
+  
+    color:#333333;
+    border-radius: 50%;
+    padding-right: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    
+    
+   
+}
+/*SIGN-UP*/
+
+#Sign-Up{
+background-color:transparent;
+background-size:500px 500px;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+margin-top:150px;
+margin-bottom:150px;
+margin-right:150px;
+margin-left:450px;
+padding:9px 35px;
+font-weight: bolder;
+color: blue;
+}
+/*Label for*/
+label{
+    font-family: sans-serif;
+    font-size:medium;
+    font-weight: bolder;
+    color: #333333;
+}
+
+#button{
+border-radius:15px;
+width:100px;
+height:20px;
+background:#ff3333;
+font-weight:bold;
+font-size:15px;
+padding-right: 8px;
+ border-bottom-right-radius: 30px;
+ border-bottom-left-radius: 30px;
+
+
+}
+
+/*Table*/
+table{
+    border: 1px solid;
+    border-collapse:collapse; 
+}
+
+/*FOOTER*/
+.footer{
+    color:black;
+    text-align: center;
+    text-decoration: transparent;
+    display: block;
+    height: 35px;
+    bottom: 0;
+    width: 100%;
+    background-color: #cccccc;
+    position: fixed;
+    left: 0;
+    padding-top: 10px;
+ }
+
+
+legend{
+    color: #ff3333;
+    text-decoration:activeborder;
+    
+}
+
+#link{
+    color: blue;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+    .topnav {
+  overflow: hidden;
+  background-color:transparent;
+}
+
+.topnav a {
+  float: left;
+  color:black;
+  text-align: center;
+  padding: 20px 8px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sans-serif;
+  transition: .5s;
+  margin-right: 90px;
+  }
+
+.topnav a:hover {
+  background-color:gray;
+  color: black;
+  
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+#h4{
+    color:black;
+    text-align: center;
+    font-family: monospace;
+    font-variant-caps: all-petite-caps;
+    font-size: 200%;
+}
+
+ td th{
+   border: 1px solid #dddddd;
+    text-align: left;
+    padding: 80px;    
+    padding: 2px;
+}
+td{
+    text-align: center;
+}  
+#red{
+    color: red;
+}
+/* TABLE DESIGN */
+
+table{
+     font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;}
+
+/* SELECTION MENU */
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+/* END SELECTION */
+
+.logo 
+{
+    float: right;
+    padding-top: 100px;
+    
+}
+
+/* Navigation Bar*/
+
+#sidebar{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    position: fixed;
+    background: gray;
+    width: 200px;
+    height: 100%;
+    left: -200px;
+    transition: all 500ms linear;
+    }
+    #sidebar .active{
+        left: 0px;
+    }
+    #sidebar ul li{
+        color:rgba(230,230,230,0.9);
+        list-style: none;
+        padding: 15px 10px;
+        border-bottom: 1px solid rgba(100,100,100,03);
+    }
+    
+    #sidebar .toggle-btn{
+        position: absolute;
+        left: 230px;
+        top: 20px;
+        }
+        
+        #sidebar .toggle-btn span{
+            display:block;
+            width: 30px;
+            height: 5px;
+            background: black;
+            margin: 3px 0px;
+            
+       }
+       
+     /* NAV BAR FOR DOCTOR*/
+     .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+  
+#prescripbox{
+    background-color: #666666;
+    width: 500px;
+    border: 10px  black;
+    padding: 150px;
+    margin: 25px;
+    
+ }
+ /* sign box*/
+ 
+
+
+
+ 
